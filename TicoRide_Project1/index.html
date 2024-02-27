@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container text-center mt-5">
+      <img src="images/logo.png" alt="imagen" class="img-fluid" />
+      <h1 class="display-4 font-weight-bold">Welcome to TicoRides.com</h1>
+
+      <div class="search-heading">
+        <p class="text-uppercase">Search for a ride</p>
+      </div>
+
+      <div class="card mt-3 p-3">
+        <div class="card-body">
+          <form class="search-form">
+            <div class="form-row">
+              <div class="col-3">
+                <input type="text" class="form-control" placeholder="From" />
+              </div>
+              <div class="col-3">
+                <input type="text" class="form-control" placeholder="To" />
+              </div>
+              <div class="col-auto">
+                <button type="submit" class="btn btn-light-gray">
+                  Find my Ride!
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="results-heading">
+        <p class="text-uppercase font-weight-bold">
+          Results for rides that matches your criteria
+        </p>
+      </div>
+      <div class="row row-light-gray-center">
+        <div class="col column-heading">User</div>
+        <div class="col column-heading">Start</div>
+        <div class="col column-heading">End</div>
+        <div class="col column-heading">View</div>
+      </div>
+      <!-- Aquí puedes agregar contenido dinámico con tu backend -->
+      <div class="row row-light-gray">
+        <div class="col">Jairo</div>
+        <div class="col">Quesada</div>
+        <div class="col">Upala</div>
+        <div class="col"><a href="ver_ride.html">Ver Ride 1</a></div>
+      </div>
+      <div class="row row-light-gray-center">
+        <div class="col">Miguel</div>
+        <div class="col">San Antonio, Quesada</div>
+        <div class="col">Lourdes, UTN</div>
+        <div class="col"><a href="ver_ride.html">Ver Ride 2</a></div>
+      </div>
+      <div class="row row-light-gray">
+        <div class="col">Deiby</div>
+        <div class="col">Los Angeles, San Carlos</div>
+        <div class="col">Upala</div>
+        <div class="col"><a href="ver_ride.html">Ver Ride 3</a></div>
+      </div>
+    </div>
+  </body>
+</html>
