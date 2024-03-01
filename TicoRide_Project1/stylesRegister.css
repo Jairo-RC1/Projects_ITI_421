@@ -1,0 +1,21 @@
+
+.form-group label {
+  font-weight: bold;
+}
+
+.form-group {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.btn-register {
+  background-color: #e0e0e0;
+  color: #000; 
+  border: none;
+  font-weight: bold;
+}
+
+.btn-register:hover {
+  background-color: #cccccc;
+  color: #000;
+}
