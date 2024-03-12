@@ -1,0 +1,37 @@
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+.navbar-fixed-top {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+.breadcrumb-item {
+  display: inline-block;
+  color: blue;
+  text-decoration: underline;
+}
+body {
+  padding-top: 56px; /* Altura de la barra de navegación */
+}
+
+.navbar-light .navbar-nav .nav-link.dashboard-link {
+  color: blue; /* Cambia el color del texto a azul */
+}
+
+/* Espaciado entre los elementos */
+.container > .mt-5 {
+  margin-top: 30px;
+}
+
+/* Estilos para los campos de texto y textarea */
+.form-control {
+  margin-bottom: 15px;
+}
+
+/* Estilos para los días de la semana */
+.form-check-inline {
+  margin-right: 15px;
+}

@@ -4,6 +4,8 @@
 .navbar-light .navbar-nav .nav-link.dashboard-link {
   color: blue; /* Cambia el color del texto a azul */
 }
+
+
 body {
   padding-top: 56px; /* Altura de la barra de navegación */
 }
