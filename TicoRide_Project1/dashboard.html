@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="stylesDashboard.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.png" alt="logo" height="60" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link dashboard-link" href="dashboard.html"
+              >Dashboard</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="rides.html">Rides</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="settings.html">Settings</a>
+          </li>
+          <li class="nav-item">
+            <div class="nav-link welcome-user">
+              Welcome, Jairo
+              <img src="images/user.png" alt="user" class="user-icon" />
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container mt-5">
+      <h1 class="display-4 font-weight-bold text-center">Dashboard</h1>
+      <div class="container mt-5">
+        <div class="breadcrumb">
+          <p class="breadcrumb-item">Dashboard</p>
+          <p class="breadcrumb-item">></p>
+          <p class="breadcrumb-item active">My Rides</p>
+        </div>
+        <div class="results-heading">
+          <p class="text-uppercase font-weight-bold">My Rides</p>
+        </div>
+        <div class="row row-light-gray-center">
+          <div class="col column-heading">User</div>
+          <div class="col column-heading">Start</div>
+          <div class="col column-heading">End</div>
+          <div class="col column-heading">Actions</div>
+        </div>
+        <div class="row row-light-gray">
+          <div class="col">Jairo</div>
+          <div class="col">Quesada</div>
+          <div class="col">Upala</div>
+          <div class="col">
+            <a href="editRide1.html">Edit</a> -
+            <a href="deleteRide1.html">Delete</a>
+          </div>
+        </div>
+        <div class="row row-light-gray-center">
+          <div class="col">Miguel</div>
+          <div class="col">San Antonio, Quesada</div>
+          <div class="col">Lourdes, UTN</div>
+          <div class="col">
+            <a href="editRide2.html">Edit</a> -
+            <a href="deleteRide2.html">Delete</a>
+          </div>
+        </div>
+        <div class="row row-light-gray">
+          <div class="col">Deiby</div>
+          <div class="col">Los Angeles, San Carlos</div>
+          <div class="col">Upala</div>
+          <div class="col">
+            <a href="editRide3.html">Edit</a> -
+            <a href="deleteRide3.html">Delete</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+.container {
+  margin-top: 50px;
+}
+.navbar-light .navbar-nav .nav-link.dashboard-link {
+  color: blue; /* Cambia el color del texto a azul */
+}
+body {
+  padding-top: 56px; /* Altura de la barra de navegación */
+}
+.results-heading {
+  margin-top: 20px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.row-light-gray {
+  background-color: #d3d3d3;
+}
+
+.row-light-gray-center {
+  background-color: #e0e0e0;
+}
+
+.column-heading {
+  font-weight: bold;
+}
+
+.breadcrumb-item {
+  display: inline-block;
+  color: blue;
+  text-decoration: underline;
+}
+
+.label {
+  color: blue;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.textarea-field {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  resize: vertical;
+}
