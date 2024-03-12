@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>View Ride 2</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="/css/stylesRides.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top">
+      <a class="navbar-brand" href="#">
+        <img src="/images/logo.png" alt="logo" height="60" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home Main</a>
+          </li>
+          <li class="nav-item">
+            <a href="login.html" class="boton-login">Login</a>
+              <img src="/images/user.png" alt="user" class="user-icon" />
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container mt-5">
+      <h1 class="display-4 font-weight-bold text-center">View Ride 2</h1>
+      <div class="container mt-5">
+        <div class="breadcrumb">
+          <p class="breadcrumb-item">Home Main</p>
+          <p class="breadcrumb-item">></p>
+          <p class="breadcrumb-item active">View</p>
+        </div>
+        <div class="form-group">
+          <label for="rideName">Ride Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="rideName"
+            value="Miguel"
+            readonly
+          />
+        </div>
+        <div class="form-group">
+          <label for="startFrom">Start From</label>
+          <input
+            type="text"
+            class="form-control"
+            id="startFrom"
+            value="San Antonio, Quesada"
+            readonly
+          />
+        </div>
+        <div class="form-group">
+          <label for="end">End</label>
+          <input
+            type="text"
+            class="form-control"
+            id="end"
+            value="Lourdes-UTN"
+            readonly
+          />
+        </div>
+        <div class="form-group">
+          <label for="description">Description</label>
+          <textarea class="form-control" id="description" rows="5" readonly> Viaje del depa a la univerisdad</textarea
+          >
+        </div>
+        <div class="form-group">
+          <label for="departure">Departure</label>
+          <input
+            type="text"
+            class="form-control"
+            id="departure"
+            value="7:30 am"
+            readonly
+          />
+        </div>
+        <div class="form-group">
+          <label for="estimatedArrival">Estimated Arrival</label>
+          <input
+            type="text"
+            class="form-control"
+            id="estimatedArrival"
+            value="7:50 am"
+            readonly
+          />
+        </div>
+        <div class="form-group">
+          <label>Days of the Ride</label><br />
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              id="monday"
+              value="monday"
+              disabled
+            />
+            <label class="form-check-label" for="monday">Monday</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              id="tuesday"
+              value="tuesday"
+              disabled
+            />
+            <label class="form-check-label" for="tuesday">Tuesday</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              id="wednesday"
+              value="wednesday"
+              disabled
+            />
+            <label class="form-check-label" for="wednesday">Wednesday</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              id="thursday"
+              value="thursday"
+              disabled
+              checked
+            />
+            <label class="form-check-label" for="thursday">Thursday</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              id="friday"
+              value="friday"
+              disabled
+              checked
+            />
+            <label class="form-check-label" for="friday">Friday</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              id="saturday"
+              value="saturday"
+              disabled
+              checked
+            />
+            <label class="form-check-label" for="saturday">Saturday</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              id="sunday"
+              value="sunday"
+              disabled
+            />
+            <label class="form-check-label" for="sunday">Sunday</label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-3">
+      <div class="row justify-content-end">
+        <div class="col-auto">
+          <a href="index.html" class="btn btn-secondary">Cancel</a>
+          <a href="index.html" class="btn btn-primary">Save</a>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

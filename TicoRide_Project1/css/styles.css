@@ -1,6 +1,19 @@
 .container {
   margin-top: 50px;
 }
+.navbar-light .navbar-nav .nav-link.dashboard-link {
+  color: blue; 
+}
+.navbar-fixed-top {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+body {
+  padding-top: 56px;
+}
 
 .row {
   border: 1px solid #000;

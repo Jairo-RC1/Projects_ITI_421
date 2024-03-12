@@ -3,17 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Edit Ride 2</title>
+    <title>Edit Ride 1</title>
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="stylesRide1.css" />
+    <link rel="stylesheet" href="/css/stylesRides.css" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top">
       <a class="navbar-brand" href="#">
-        <img src="images/logo.png" alt="logo" height="60" />
+        <img src="/images/logo.png" alt="logo" height="60" />
       </a>
       <button
         class="navbar-toggler"
@@ -32,7 +32,7 @@
             <a class="nav-link" href="dashboard.html">Dashboard</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link dashboard-link" href="index.html">Rides</a>
+            <a class="nav-link dashboard-link" href="home.html">Rides</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="settings.html">Settings</a>
@@ -40,7 +40,7 @@
           <li class="nav-item">
             <div class="nav-link welcome-user">
               Welcome, Jairo
-              <img src="images/user.png" alt="user" class="user-icon" />
+              <img src="/images/user.png" alt="user" class="user-icon" />
             </div>
           </li>
         </ul>
@@ -48,7 +48,7 @@
     </nav>
 
     <div class="container mt-5">
-      <h1 class="display-4 font-weight-bold text-center">Edit Ride 2</h1>
+      <h1 class="display-4 font-weight-bold text-center">Edit Ride 1</h1>
       <div class="container mt-5">
         <div class="breadcrumb">
           <p class="breadcrumb-item">Dashboard</p>
@@ -59,7 +59,7 @@
         </div>
         <div class="form-group">
           <label for="rideName">Ride Name</label>
-          <input type="text" class="form-control" id="rideName" value="Miguel" />
+          <input type="text" class="form-control" id="rideName" value="Jairo" />
         </div>
         <div class="form-group">
           <label for="startFrom">Start From</label>
@@ -67,17 +67,17 @@
             type="text"
             class="form-control"
             id="startFrom"
-            value="San Antonio, Quesada"
+            value="Quesada"
           />
         </div>
         <div class="form-group">
           <label for="end">End</label>
-          <input type="text" class="form-control" id="end" value="Lourdes-UTN" />
+          <input type="text" class="form-control" id="end" value="Upala" />
         </div>
         <div class="form-group">
           <label for="description">Description</label>
           <textarea class="form-control" id="description" rows="5">
-Viaje del depa a la univerisdad</textarea
+Saliendo de la Universidad para la casa</textarea
           >
         </div>
         <div class="form-group">
@@ -86,7 +86,7 @@ Viaje del depa a la univerisdad</textarea
             type="text"
             class="form-control"
             id="departure"
-            value="7:30 am"
+            value="6:00 PM"
           />
         </div>
         <div class="form-group">
@@ -95,7 +95,7 @@ Viaje del depa a la univerisdad</textarea
             type="text"
             class="form-control"
             id="estimatedArrival"
-            value="7:50 am"
+            value="7:30 PM"
           />
         </div>
         <div class="form-group">
@@ -133,7 +133,6 @@ Viaje del depa a la univerisdad</textarea
               type="checkbox"
               id="thursday"
               value="thursday"
-              checked
             />
             <label class="form-check-label" for="thursday">Thursday</label>
           </div>
@@ -143,7 +142,6 @@ Viaje del depa a la univerisdad</textarea
               type="checkbox"
               id="friday"
               value="friday"
-              checked
             />
             <label class="form-check-label" for="friday">Friday</label>
           </div>
@@ -172,8 +170,8 @@ Viaje del depa a la univerisdad</textarea
     <div class="container mt-3">
       <div class="row justify-content-end">
         <div class="col-auto">
-          <button type="button" class="btn btn-secondary">Cancel</button>
-          <button type="button" class="btn btn-primary">Save</button>
+          <a href="dashboard.html" class="btn btn-secondary">Cancel</a>
+          <a href="dashboard.html" class="btn btn-primary">Save</a>
         </div>
       </div>
     </div>
