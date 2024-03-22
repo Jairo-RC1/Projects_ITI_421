@@ -4,17 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome</title>
+    <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/styles.css" />
   </head>
   <body>
+    <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <a class="navbar-brand" href="#">
+        <!-- Brand logo -->
         <img src="/images/logo.png" alt="logo" height="60" />
       </a>
+      <!-- Navbar toggle button for mobile -->
       <button
         class="navbar-toggler"
         type="button"
@@ -26,14 +31,19 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
+      <!-- Navbar links -->
       <div class="collapse navbar-collapse" id="navbarNav">
+        <!-- Dashboard link -->
         <ul class="navbar-nav ml-auto">
+          <!-- Rides link -->
           <li class="nav-item">
             <a class="nav-link" href="dashboard.html">Dashboard</a>
           </li>
+          <!-- Settings link -->
           <li class="nav-item">
             <a class="nav-link dashboard-link" href="home.html">Rides</a>
           </li>
+          <!-- User welcome message -->
           <li class="nav-item">
             <a class="nav-link" href="settings.html">Settings</a>
           </li>
@@ -46,24 +56,30 @@
         </ul>
       </div>
     </nav>
+    <!-- Main content container -->
     <div class="container text-center mt-5">
+      <!-- Main title -->
       <h1 class="display-4 font-weight-bold">Welcome to TicoRides.com</h1>
+      <!-- Logout button -->
       <a href="login.html" class="boton-login">Log out</a>
-
+      <!-- Search heading -->
       <div class="search-heading">
         <p class="text-uppercase">Search for a ride</p>
       </div>
-
+      <!-- Search form -->
       <div class="card mt-3 p-3">
         <div class="card-body">
           <form class="search-form">
             <div class="form-row">
+              <!-- 'From' input -->
               <div class="col-3">
                 <input type="text" class="form-control" placeholder="From" />
               </div>
+              <!-- 'To' input -->
               <div class="col-3">
                 <input type="text" class="form-control" placeholder="To" />
               </div>
+              <!-- Submit button -->
               <div class="col-auto">
                 <button type="submit" class="btn btn-light-gray">
                   Find my Ride!
@@ -74,31 +90,36 @@
         </div>
       </div>
     </div>
-
+    <!-- Results container -->
     <div class="container">
+      <!-- Results heading -->
       <div class="results-heading">
         <p class="text-uppercase font-weight-bold">
           Results for rides that matches your criteria
         </p>
       </div>
+      <!-- Row for column headings -->
       <div class="row row-light-gray-center">
         <div class="col column-heading">User</div>
         <div class="col column-heading">Start</div>
         <div class="col column-heading">End</div>
         <div class="col column-heading">View</div>
       </div>
+      <!-- Row for ride 1 -->
       <div class="row row-light-gray">
         <div class="col">Jairo</div>
         <div class="col">Quesada</div>
         <div class="col">Upala</div>
         <div class="col"><a href="viewRide1.html">Ver Ride 1</a></div>
       </div>
+      <!-- Row for ride 2 -->
       <div class="row row-light-gray-center">
         <div class="col">Miguel</div>
         <div class="col">San Antonio, Quesada</div>
         <div class="col">Lourdes, UTN</div>
         <div class="col"><a href="viewRide2.html">Ver Ride 2</a></div>
       </div>
+      <!-- Row for ride 3 -->
       <div class="row row-light-gray">
         <div class="col">Deiby</div>
         <div class="col">Los Angeles, San Carlos</div>

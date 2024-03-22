@@ -1,66 +1,84 @@
+/* Apply margin to the container */
 .container {
   margin-top: 50px;
 }
+
+/* Style for dashboard link in the navbar */
 .navbar-light .navbar-nav .nav-link.dashboard-link {
-  color: blue; 
+  color: blue;
 }
+
+/* Style for fixed navbar */
 .navbar-fixed-top {
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 1000;
+  position: fixed; /* Set position to fixed */
+  width: 100%; /* Full width */
+  top: 0; /* Stick to the top */
+  z-index: 1000; /* Set z-index */
 }
 
+/* Body styling */
 body {
-  padding-top: 56px;
+  padding-top: 56px; /* Height of the navigation bar */
 }
 
+/* Style for rows */
 .row {
-  border: 1px solid #000;
-  text-align: center;
+  border: 1px solid #000; /* Apply border */
+  text-align: center; /* Center align text */
 }
 
+/* Style for columns */
 .col {
-  padding: 10px;
-  border-right: 1px solid #000;
+  padding: 10px; /* Apply padding */
+  border-right: 1px solid #000; /* Apply right border */
 }
 
+/* Style for light gray buttons */
 .btn-light-gray {
-  background-color: #d3d3d3;
-  color: #000;
+  background-color: #d3d3d3; /* Set background color */
+  color: #000; /* Set text color */
 }
 
+/* Hover effect for light gray buttons */
 .btn-light-gray:hover {
-  background-color: #b0b0b0;
+  background-color: #b0b0b0; /* Change background color on hover */
 }
 
+/* Remove right border for last column */
 .col:last-child {
-  border-right: none;
+  border-right: none; /* Remove right border */
 }
+
+/* Style for search form */
 .search-form {
-  width: 100%;
+  width: 100%; /* Full width */
 }
 
+/* Style for search heading */
 .search-heading {
-  font-weight: bold;
-  margin-top: 10px;
-  text-align: left;
+  font-weight: bold; /* Apply bold font weight */
+  margin-top: 10px; /* Top margin */
+  text-align: left; /* Align text to the left */
 }
 
+/* Style for rows with light gray background */
 .row-light-gray {
-  background-color: #d3d3d3;
+  background-color: #d3d3d3; /* Set background color */
 }
 
+/* Style for centered rows with light gray background */
 .row-light-gray-center {
-  background-color: #e0e0e0;
+  background-color: #e0e0e0; /* Set background color */
 }
 
+/* Style for column headings */
 .column-heading {
-  font-weight: bold;
+  font-weight: bold; /* Apply bold font weight */
 }
 
+/* Style for results heading */
 .results-heading {
-  margin-top: 20px;
-  text-align: left;
-  font-weight: bold;
+  margin-top: 20px; /* Top margin */
+  text-align: left; /* Align text to the left */
+  font-weight: bold; /* Apply bold font weight */
 }

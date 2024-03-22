@@ -4,17 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Edit Ride 1</title>
+    <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
+    <!-- Custom CSS for ride styles -->
     <link rel="stylesheet" href="/css/stylesRides.css" />
   </head>
   <body>
+    <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top">
+      <!-- Brand logo -->
       <a class="navbar-brand" href="#">
         <img src="/images/logo.png" alt="logo" height="60" />
       </a>
+      <!-- Navbar toggle button for mobile -->
       <button
         class="navbar-toggler"
         type="button"
@@ -26,17 +31,22 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
+      <!-- Navbar links -->
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
+          <!-- Dashboard link -->
           <li class="nav-item">
             <a class="nav-link" href="dashboard.html">Dashboard</a>
           </li>
+          <!-- Rides link -->
           <li class="nav-item">
             <a class="nav-link dashboard-link" href="home.html">Rides</a>
           </li>
+          <!-- Settings link -->
           <li class="nav-item">
             <a class="nav-link" href="settings.html">Settings</a>
           </li>
+          <!-- User welcome message -->
           <li class="nav-item">
             <div class="nav-link welcome-user">
               Welcome, Jairo
@@ -46,10 +56,12 @@
         </ul>
       </div>
     </nav>
-
+    <!-- Main content container -->
     <div class="container mt-5">
+      <!-- Main title -->
       <h1 class="display-4 font-weight-bold text-center">Edit Ride 1</h1>
       <div class="container mt-5">
+        <!-- Breadcrumb navigation -->
         <div class="breadcrumb">
           <p class="breadcrumb-item">Dashboard</p>
           <p class="breadcrumb-item">></p>
@@ -57,10 +69,12 @@
           <p class="breadcrumb-item">></p>
           <p class="breadcrumb-item active">Edit</p>
         </div>
+        <!-- Ride form -->
         <div class="form-group">
           <label for="rideName">Ride Name</label>
           <input type="text" class="form-control" id="rideName" value="Jairo" />
         </div>
+        <!-- Start From input -->
         <div class="form-group">
           <label for="startFrom">Start From</label>
           <input
@@ -70,16 +84,19 @@
             value="Quesada"
           />
         </div>
+        <!-- End input -->
         <div class="form-group">
           <label for="end">End</label>
           <input type="text" class="form-control" id="end" value="Upala" />
         </div>
+        <!-- Description textarea -->
         <div class="form-group">
           <label for="description">Description</label>
           <textarea class="form-control" id="description" rows="5">
 Saliendo de la Universidad para la casa</textarea
           >
         </div>
+        <!-- Departure input -->
         <div class="form-group">
           <label for="departure">Departure</label>
           <input
@@ -89,6 +106,7 @@ Saliendo de la Universidad para la casa</textarea
             value="6:00 PM"
           />
         </div>
+        <!-- Estimated Arrival input -->
         <div class="form-group">
           <label for="estimatedArrival">Estimated Arrival</label>
           <input
@@ -98,8 +116,10 @@ Saliendo de la Universidad para la casa</textarea
             value="7:30 PM"
           />
         </div>
+        <!-- Days of the Ride checkboxes -->
         <div class="form-group">
           <label>Days of the Ride</label><br />
+          <!-- Individual day checkboxes -->
           <div class="form-check form-check-inline">
             <input
               class="form-check-input"
@@ -167,6 +187,7 @@ Saliendo de la Universidad para la casa</textarea
         </div>
       </div>
     </div>
+    <!-- Save and Cancel buttons -->
     <div class="container mt-3">
       <div class="row justify-content-end">
         <div class="col-auto">
@@ -175,7 +196,7 @@ Saliendo de la Universidad para la casa</textarea
         </div>
       </div>
     </div>
-
+    <!-- jQuery Slim, Popper.js, Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

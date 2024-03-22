@@ -3,20 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title of the page -->
     <title>Login</title>
+    <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
+    <!-- Custom CSS for login page -->
     <link rel="stylesheet" href="/css/stylesLogin.css" />
   </head>
   <body>
+    <!-- Main content container for logo -->
     <div class="container text-center mt-5">
+      <!-- Logo image -->
       <img src="/images/logo.png" alt="imagen" class="img-fluid" />
     </div>
-
+    <!-- Main content container for login form -->
     <div class="container mt-5">
+      <!-- Login form -->
       <form class="login-form">
+        <!-- Username input -->
         <div class="form-group">
           <label for="username">User</label>
           <input
@@ -26,6 +33,7 @@
             placeholder="Enter username"
           />
         </div>
+        <!-- Password input -->
         <div class="form-group">
           <label for="password">Password</label>
           <input
@@ -35,8 +43,10 @@
             placeholder="Enter password"
           />
         </div>
+        <!-- Login button -->
         <a href="home.html" class="btn btn-primary">Login</a>
       </form>
+      <!-- Link to register page -->
       <p class="text-center mt-3">
         Not a user? <a href="register.html">Register here</a>
       </p>
