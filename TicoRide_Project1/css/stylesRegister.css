@@ -1,21 +1,20 @@
-
 .form-group label {
-  font-weight: bold;
+  font-weight: bold; /* Make labels bold */
 }
 
 .form-group {
-  text-align: left;
-  margin-bottom: 20px;
+  text-align: left; /* Align text to the left */
+  margin-bottom: 20px; /* Add margin at the bottom */
 }
 
 .btn-register {
-  background-color: #e0e0e0;
-  color: #000; 
-  border: none;
-  font-weight: bold;
+  background-color: #e0e0e0; /* Set the background color to light gray */
+  color: #000; /* Set the text color to black */
+  border: none; /* Remove the border */
+  font-weight: bold; /* Make the font bold */
 }
 
 .btn-register:hover {
-  background-color: #cccccc;
-  color: #000;
+  background-color: #cccccc; /* Darken the background color on hover */
+  color: #000; /* Set the text color to black */
 }
