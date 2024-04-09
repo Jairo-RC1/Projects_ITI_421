@@ -19,7 +19,7 @@
     </div>
     <!-- Register form container -->
     <div class="container mt-5">
-        <form class="register-form" id="register-form" method="post" action="../utils/register_query.php">
+        <form class="register-form" id="register-form" method="post" action="../models/register_query.php">
             <!-- First Name input -->
             <div class="form-group">
                 <label for="firstName">First Name</label>

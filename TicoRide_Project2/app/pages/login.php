@@ -23,7 +23,7 @@
     <!-- Main content container for login form -->
     <div class="container mt-5">
         <!-- Login form -->
-        <form class="login-form" id="login-form" method="post" action="../utils/login_query.php">
+        <form class="login-form" id="login-form" method="post" action="../models/login_query.php">
             <!-- Username input -->
             <div class="form-group">
                 <label for="username">User</label>

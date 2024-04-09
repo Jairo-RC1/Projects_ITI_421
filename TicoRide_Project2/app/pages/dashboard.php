@@ -24,7 +24,7 @@ require '../shared/header.php';
             <div class="col column-heading">Actions</div>
         </div>
         <!-- Ride list items -->
-        <?php include '../utils/ride_query.php'; ?>
+        <?php include '../models/ride_query.php'; ?>
         <!-- Add Ride button -->
         <div class="justify-content-start mt-3">
             <div class="col-auto">
