@@ -1,0 +1,63 @@
+/* Apply margin to the container */
+.container {
+  margin-top: 50px; /* Top margin */
+}
+
+/* Style for dashboard link in the navbar */
+.navbar-light .navbar-nav .nav-link.dashboard-link {
+  color: blue; /* Change text color to blue */
+}
+
+/* Body styling */
+body {
+  padding-top: 56px; /* Height of the navigation bar */
+}
+
+/* Style for results heading */
+.results-heading {
+  margin-top: 20px; /* Top margin */
+  text-align: left; /* Align text to the left */
+  font-weight: bold; /* Apply bold font weight */
+}
+
+/* Style for rows with light gray background */
+.row-light-gray {
+  background-color: #d3d3d3; /* Set background color to light gray */
+}
+
+/* Style for centered rows with light gray background */
+.row-light-gray-center {
+  background-color: #e0e0e0; /* Set background color to a slightly lighter gray */
+}
+
+/* Style for column headings */
+.column-heading {
+  font-weight: bold; /* Apply bold font weight */
+}
+
+/* Style for breadcrumb items */
+.breadcrumb-item {
+  display: inline-block; /* Display inline */
+  color: blue; /* Set text color to blue */
+  text-decoration: underline; /* Apply underline decoration */
+}
+
+/* Style for labels */
+.label {
+  color: blue; /* Set text color to blue */
+}
+
+/* Style for input fields */
+.input-field {
+  width: 100%; /* Set width to 100% */
+  padding: 10px; /* Apply padding */
+  margin-top: 5px; /* Top margin */
+}
+
+/* Style for textarea fields */
+.textarea-field {
+  width: 100%; /* Set width to 100% */
+  padding: 10px; /* Apply padding */
+  margin-top: 5px; /* Top margin */
+  resize: vertical; /* Allow vertical resizing */
+}

@@ -1,0 +1,40 @@
+.container {
+  max-width: 800px; /* Set the maximum width of the container */
+  margin: auto; /* Center the container horizontally */
+}
+
+.navbar-fixed-top {
+  position: fixed; /* Fix the navbar at the top of the viewport */
+  width: 100%; /* Set the width to 100% */
+  top: 0; /* Position at the top */
+  z-index: 1000; /* Set a high z-index value */
+}
+
+.breadcrumb-item {
+  display: inline-block; /* Display breadcrumb items inline */
+  color: blue !important; /* Set the color to blue, !important overrides other styles */
+  text-decoration: underline; /* Add underline decoration */
+}
+
+body {
+  padding-top: 56px; /* Add padding-top to accommodate the fixed navbar height */
+}
+
+.navbar-light .navbar-nav .nav-link.dashboard-link {
+  color: blue; /* Change the color of the text to blue */
+}
+
+/* Spacing between elements */
+.container > .mt-5 {
+  margin-top: 30px; /* Add margin-top to elements with class .mt-5 */
+}
+
+/* Styles for text fields and textareas */
+.form-control {
+  margin-bottom: 15px; /* Add margin at the bottom of form controls */
+}
+
+/* Styles for the days of the week */
+.form-check-inline {
+  margin-right: 15px; /* Add margin-right to inline form check elements */
+}

@@ -1,0 +1,14 @@
+.btn-login {
+  background-color: #e0e0e0; /* Set the background color to light gray */
+  color: #000; /* Set the text color to black */
+  border: none; /* Remove the border */
+}
+
+.btn-login:hover {
+  background-color: #cccccc; /* Darken the background color on hover */
+  color: #000; /* Set the text color to black */
+}
+
+.form-group label {
+  font-weight: bold; /* Make labels bold */
+}
