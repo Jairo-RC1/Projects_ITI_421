@@ -81,3 +81,30 @@ body {
   text-align: left; /* Align text to the left */
   font-weight: bold; /* Apply bold font weight */
 }
+
+.btn-login {
+  background-color: #e0e0e0; /* Set the background color to light gray */
+  color: #000; /* Set the text color to black */
+  border: none; /* Remove the border */
+}
+
+.btn-login:hover {
+  background-color: #cccccc; /* Darken the background color on hover */
+  color: #000; /* Set the text color to black */
+}
+
+.form-group label {
+  font-weight: bold; /* Make labels bold */
+}
+
+.container {
+  max-width: 800px; /* Set the maximum width of the container */
+  margin: auto; /* Center the container horizontally */
+}
+
+.navbar-fixed-top {
+  position: fixed; /* Fix the navbar at the top of the viewport */
+  width: 100%; /* Set the width to 100% */
+  top: 0; /* Position at the top */
+  z-index: 1000; /* Set a high z-index value */
+}
