@@ -1,4 +1,4 @@
-<?php 
+<?php
 require '../shared/header.php';
 ?>
 <!-- Main content container -->
@@ -18,7 +18,7 @@ require '../shared/header.php';
         </div>
         <!-- Ride list table headers -->
         <div class="row row-light-gray-center">
-            <div class="col column-heading">User</div>
+            <div class="col column-heading">Ride Name</div>
             <div class="col column-heading">Start</div>
             <div class="col column-heading">End</div>
             <div class="col column-heading">Actions</div>
@@ -28,11 +28,14 @@ require '../shared/header.php';
         <!-- Add Ride button -->
         <div class="justify-content-start mt-3">
             <div class="col-auto">
-                <a href="addRide.html" class="btn btn-primary">Añadir Ride</a>
+                <a href="addRide.php" class="btn btn-primary">Add Ride</a>
             </div>
         </div>
     </div>
 </div>
+<?php
+require '../shared/footer.php';
+?>
 
 <!-- jQuery Slim, Popper.js, Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

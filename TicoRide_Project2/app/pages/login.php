@@ -42,11 +42,15 @@
             Not a user? <a href="register.php">Register here</a>
         </p>
     </div>
+
     <!-- Error message -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <div class="error-message" style="display: none;"><?php echo $error; ?></div>
+    <?php
+    require '../shared/footer.php';
+    ?>
 </body>
 
 </html>

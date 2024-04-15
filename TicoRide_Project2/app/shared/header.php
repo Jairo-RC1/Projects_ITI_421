@@ -30,7 +30,7 @@
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <!-- Dashboard link -->
-                    <a class="nav-link dashboard-link" href="dashboard.html">Dashboard</a>
+                    <a class="nav-link dashboard-link" href="../pages/dashboard.php">Dashboard</a>
                 </li>
                 <li class="nav-item">
                     <!-- Rides link -->

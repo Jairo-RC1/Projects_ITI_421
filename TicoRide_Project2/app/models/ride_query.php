@@ -19,7 +19,7 @@ if (isset($_SESSION['user_id'])) {
         echo "<div class='col'>" . $row["start"] . "</div>";
         echo "<div class='col'>" . $row["end"] . "</div>";
         echo "<div class='col'>";
-        echo "<a href='editRide.php?id=" . $row["id"] . "'>Edit</a> - ";
+        echo "<a href='../pages/editRide.php?id=" . $row["id"] . "'>Edit</a> - ";
         echo "<a href='#' onclick='confirmDelete(" . $row["id"] . ")'>Delete</a>";
         echo "</div>";
         echo "</div>";

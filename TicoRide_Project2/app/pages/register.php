@@ -64,6 +64,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <!-- Include register script -->
     <script src="../public/js/register.js"></script>
+    <?php
+    require '../shared/footer.php';
+    ?>
 </body>
 
 </html>
