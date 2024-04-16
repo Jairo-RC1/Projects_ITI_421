@@ -18,9 +18,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $row = $result->fetch_assoc();
         // Verificar si la contraseña proporcionada coincide con el hash almacenado
         if (password_verify($password, $row['password'])) {
-            // Iniciar sesión y almacenar el ID de usuario en la sesión
+            // Iniciar sesión y almacenar el ID de usuario y el nombre de usuario en la sesión
             session_start();
             $_SESSION['user_id'] = $row['id'];
+            $_SESSION['username'] = $row['username'];
             // Redirigir al usuario a la página de inicio
             header("Location: ../pages/dashboard.php");
             exit();

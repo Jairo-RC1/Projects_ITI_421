@@ -35,7 +35,7 @@ if (isset($_SESSION['user_id'])) {
         // Ejecutar la consulta
         if ($connection->query($sql) === TRUE) {
             // Redirigir al usuario de vuelta a la página de edición con un mensaje de éxito
-            header("Location: ../../pages/editRide.php?id=$rideId&success=true");
+            header("Location: ../../pages/dashboard.php?id=$rideId&success=true");
             exit();
         } else {
             // Si ocurre un error al ejecutar la consulta, redirigir con un mensaje de error

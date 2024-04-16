@@ -3,7 +3,6 @@
 include '../utils/database.php';
 
 // Verificar si se ha iniciado sesión y se ha almacenado el ID de usuario en la sesión
-session_start();
 if (isset($_SESSION['user_id'])) {
     $user_id = $_SESSION['user_id'];
 

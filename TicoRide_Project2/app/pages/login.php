@@ -51,6 +51,12 @@
     <?php
     require '../shared/footer.php';
     ?>
+    <script>
+        window.history.pushState({}, document.title, "#");
+        window.addEventListener("popstate", function() {
+            window.location.replace("login.php");
+        });
+    </script>
 </body>
 
 </html>
