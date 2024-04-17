@@ -2,8 +2,7 @@
 // Incluir archivo de conexión a la base de datos
 include '../utils/database.php';
 
-// Verificar si se ha iniciado sesión y se ha almacenado el ID de usuario en la sesión
-session_start();
+
 if (isset($_SESSION['user_id'])) {
     // Obtener el ID del usuario que inició sesión
     $userId = $_SESSION['user_id'];

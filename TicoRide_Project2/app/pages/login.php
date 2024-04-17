@@ -26,7 +26,7 @@
         <form class="login-form" id="login-form" method="post" action="../models/login_query.php">
             <!-- Username input -->
             <div class="form-group">
-                <label for="username">User</label>
+                <label for="username">Username</label>
                 <input type="text" class="form-control" id="username" name="username" placeholder="Enter username" required>
             </div>
             <!-- Password input -->

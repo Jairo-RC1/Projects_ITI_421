@@ -39,7 +39,7 @@ if (session_status() === PHP_SESSION_NONE) {
                 </li>
                 <li class="nav-item">
                     <!-- Settings link -->
-                    <a class="nav-link" href="settings.html">Settings</a>
+                    <a class="nav-link" href="../pages/settings.php">Settings</a>
                 </li>
                 <li class="nav-item">
                     <!-- User welcome message -->

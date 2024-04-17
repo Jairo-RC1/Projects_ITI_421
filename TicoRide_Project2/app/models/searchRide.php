@@ -23,7 +23,7 @@ if ($search_result->num_rows > 0) {
         echo "<div class='col'>" . $search_row["username"] . "</div>";
         echo "<div class='col'>" . $search_row["start"] . "</div>";
         echo "<div class='col'>" . $search_row["end"] . "</div>";
-        echo "<div class='col'><a href='viewRide" . $search_row['id'] . ".html'>View Ride " . $search_row['id'] . "</a></div>";
+        echo "<div class='col'><a href='viewRide.php?id=" . $search_row['id'] . "'>View Ride " . $search_row['id'] . "</a></div>";
         echo "</div>";
     }
 } else {
